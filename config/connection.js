@@ -12,10 +12,10 @@ else
 {
 	connection = mysql.createConnection(
 	{
-		host: 'localhost',
-		user: 'root',
-		password: 'password',
-		database: 'burgers_db'
+		host: 'l3855uft9zao23e2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+		user: 'dkhcrqtr7mh8ldes',
+		password: 'r2peytmwlt7owxn0',
+		database: 'cvuvzlpkudv10f9s'
 	});
 };
 
