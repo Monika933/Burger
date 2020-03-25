@@ -12,17 +12,12 @@ else
 {
 	connection = mysql.createConnection(
 	{
-		host: 'l3855uft9zao23e2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-		user: 'dkhcrqtr7mh8ldes',
-		password: 'r2peytmwlt7owxn0',
-		database: 'cvuvzlpkudv10f9s'
+		host: 'localhost',
+		user: 'root',
+		password: 'password',
+		database: 'burgers_db'
 	});
 };
-
-
-
-
-
 
 
 connection.connect(function(err) 
@@ -36,4 +31,3 @@ connection.connect(function(err)
 });
 
 module.exports = connection;
-
